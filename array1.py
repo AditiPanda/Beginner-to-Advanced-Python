@@ -47,3 +47,18 @@ for i in range(len(arr)):
 print('\n')
 arr1.remove(1)
 print(arr1)
+
+
+# index(elt) gives the index of 1st occurence of elt
+print('Index!!!!')
+print(arr.index(3))
+print(arr1.index(3))
+
+# reversing an array in python
+print('Reversing!!')
+arr.reverse()
+for i in range(len(arr)):
+    print(arr[i], end='\t')
+print('\n')
+arr1.reverse()
+print(arr1)
